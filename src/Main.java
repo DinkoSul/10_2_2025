@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Bez unosa: " + prosjek());
         System.out.println("Unos brojeva: " + prosjek(4, 5.12, 22, 55, 22, 111));
         System.out.println("Unos preko polja: " + prosjek(arr));
-        System.out.println("Palindrom? " + Palindrom.isPalindrom("Ananas"));
+        System.out.println("Palindrom? " + Palindrom.isPalindrom("Neven"));
     }
 
     private static double prosjek(double... args) {
